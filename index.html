@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Company</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Light gray background */
+        }
+        header {
+            background-color: #4caf50; /* Green header background */
+            padding: 10px;
+            text-align: center;
+            color: #fff; /* White text color */
+        }
+        nav {
+            display: inline-block;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff; /* White text color */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .product {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            overflow: hidden;
+            background-color: #fff; /* White background */
+        }
+        .product img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 5px; /* Rounded corners for images */
+        }
+        footer {
+            background-color: #333; /* Dark footer background */
+            color: #fff; /* White text color */
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        form {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #fff; /* White background for form */
+        }
+        form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333; /* Dark text color */
+        }
+        form input[type="text"], form input[type="email"] {
+            width: calc(100% - 10px);
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+        form input[type="submit"] {
+            background-color: #4caf50; /* Green submit button */
+            color: #fff; /* White text color */
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perfume Company</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <img src="C:\Users\surya tanuj\Downloads\Men Perfume\men 1.gif" alt="Perfume Men 1">
+            <h2>AZZARO Chrome Eau de Toilette Spray for Men by Azzaro</h2>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo ligula.</p>
+            <p>Price: $50</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\surya tanuj\Downloads\Men Perfume\men 2.gif" alt="Perfume Men 2">
+            <h2>Brit Eau de Toilette Spray for Men by Burberry</h2>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo ligula.</p>
+            <p>Price: $55</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more product sections here -->
+
+        <div class="product">
+            <img src="C:\Users\surya tanuj\Downloads\Men Perfume\women 1.gif" alt="Perfume Women 1">
+            <h2>Wildbloom Rouge by Banana Republic for Women - Eau de Parfum Spray</h2>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo ligula.</p>
+            <p>Price: $75</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\surya tanuj\Downloads\Men Perfume\women 2.gif" alt="Perfume Women 2">
+            <h2>M by Banana Republic for Men - Eau de Parfum Spray</h2>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo ligula.</p>
+            <p>Price: $80</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\surya tanuj\Downloads\Men Perfume\Women 3.gif" alt="Perfume Women 3">
+            <h2>Dark Cherry and Amber by Banana Republic for Unisex - Eau de Parfum Spray</h2>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo ligula.</p>
+            <p>Price: $85</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\surya tanuj\Downloads\Men Perfume\Wome 4.gif" alt="Perfume Women 4">
+            <h2>Banana Republic Malachite by Banana Republic for Women - Eau de Parfum Spray</h2>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo ligula.</p>
+            <p>Price: $90</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\surya tanuj\Downloads\Men Perfume\women 5.gif" alt="Perfume Women 5">
+            <h2>BANANA REPUBLIC ROSEWOOD BY BANANA REPUBLIC FOR WOMEN - Eau De Parfum SPRAY</h2>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo ligula.</p>
+            <p>Price: $95</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Perfume Company. All rights reserved.</p>
+        <div class="form-container">
+            <h2>Subscribe to our newsletter</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="Your Name">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" placeholder="Your Email">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
